@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.service.CashbackHackServiceTest" tests="6" skipped="0" failures="2" errors="0" timestamp="2023-04-01T10:50:37" hostname="WIN-HPFI0P5LKDS" time="0.004">
+<testsuite name="ru.netology.service.CashbackHackServiceTest" tests="6" skipped="0" failures="2" errors="0" timestamp="2023-04-01T10:57:33" hostname="WIN-HPFI0P5LKDS" time="0.003">
   <properties/>
   <testcase name="calculateCashBack1000" classname="ru.netology.service.CashbackHackServiceTest" time="0.002">
-    <failure message="java.lang.AssertionError: expected:&lt;1000&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1000&gt; but was:&lt;0&gt;
+    <failure message="java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;1000&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;1000&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
 	at org.junit.Assert.assertEquals(Assert.java:647)
@@ -55,9 +55,9 @@
   </testcase>
   <testcase name="calculateCashBackZero" classname="ru.netology.service.CashbackHackServiceTest" time="0.0"/>
   <testcase name="calculateCashBack123" classname="ru.netology.service.CashbackHackServiceTest" time="0.0"/>
-  <testcase name="calculateCashBack400" classname="ru.netology.service.CashbackHackServiceTest" time="0.0"/>
-  <testcase name="calculateCashBackOverLimit2" classname="ru.netology.service.CashbackHackServiceTest" time="0.001">
-    <failure message="java.lang.AssertionError: expected:&lt;1000&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1000&gt; but was:&lt;0&gt;
+  <testcase name="calculateCashBack400" classname="ru.netology.service.CashbackHackServiceTest" time="0.001"/>
+  <testcase name="calculateCashBackOverLimit2" classname="ru.netology.service.CashbackHackServiceTest" time="0.0">
+    <failure message="java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;1000&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;1000&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
 	at org.junit.Assert.assertEquals(Assert.java:647)
